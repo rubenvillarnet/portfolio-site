@@ -1,0 +1,138 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* --- HEADER ---*/
+
+img.logo{
+  height: 92px;
+  width: auto;
+}
+
+header .jumbotron{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);
+  margin-bottom: 60px;
+  border-radius: 0;
+}
+
+header h1,
+header h4{
+  font-weight: 300;
+  color: #02B3E4;
+}
+
+/* --- HERO IMAGE ---*/
+.hero-image{
+  margin-bottom: 100px;
+}
+
+/* --- FEATURED WORK ---*/
+.featured-header{
+  margin-bottom: 40px;
+}
+
+.featured{
+  margin-bottom: 100px;
+}
+
+.featured a{
+  font-weight: 300;
+  color: #02B3E4;
+}
+
+.featured .button{
+  padding: 20px 0;
+  background-color: #02B3E4;
+  border: none;
+  font-size: 20px;
+}
+
+.featured .button:hover{
+  background-color: #0597bf;
+  cursor: pointer;
+}
+
+/* --- ABOUT ME --- */
+
+.about-me{
+  margin-bottom: 70px;
+}
+.about-me img{
+  max-height: 175px;
+}
+
+.about-me p{
+  line-height: 3rem;
+}
+
+/* --- SKILLS --- */
+
+.skills .progress{
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.skills p{
+  text-align: right;
+  font-size: 18px;
+  font-weight: 600;
+  color: #02B3E4;
+}
+
+.skills .progress-bar{
+  background-color: #02B3E4;
+  font-size: 18px;
+}
+
+.skills{
+  margin-bottom: 100px;
+}
+
+/* --- CONTACT FORM --- */
+form textarea{
+  height: 150px;
+  min-height: 150px;
+  max-height: 250px;
+  margin-bottom: 30px;
+}
+
+.contact-form{
+  margin-bottom: 50px;
+}
+
+.contact-form .submit-btn{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #02B3E4;
+  border: none;
+  font-size: 20px;
+}
+
+.contact-form .submit-btn:hover{
+  background-color: #0597bf;
+  cursor: pointer;
+}
+
+p.contact-header{
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-size: 22px;
+}
+
+/* --- FOOTER --- */
+
+footer .jumbotron{
+  margin: 0;
+  padding: 20px;
+  background-color: #02B3E4;
+  color: #fff;
+  border-radius: 0;
+}
+
+footer .jumbotron p{
+  margin-bottom: 0;
+}
