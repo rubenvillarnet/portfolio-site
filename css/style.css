@@ -1,16 +1,15 @@
-body{
+body {
   font-family: 'Open Sans', sans-serif;
 }
 
-
 /* --- HEADER ---*/
 
-img.logo{
+img.logo {
   height: 92px;
   width: auto;
 }
 
-header .jumbotron{
+header .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #fff;
@@ -26,85 +25,88 @@ header h4{
 }
 
 /* --- HERO IMAGE ---*/
-.hero-image{
+
+.hero-image {
   margin-bottom: 100px;
 }
 
 /* --- FEATURED WORK ---*/
-.featured-header{
+.featured-header {
   margin-bottom: 40px;
 }
 
-.featured{
+.featured {
   margin-bottom: 100px;
 }
 
-.featured a{
+.featured a {
   font-weight: 300;
   color: #02B3E4;
 }
 
-.featured .button{
+.featured .button {
   padding: 20px 0;
   background-color: #02B3E4;
   border: none;
   font-size: 20px;
 }
 
-.featured .button:hover{
+.featured .button:hover {
   background-color: #0597bf;
   cursor: pointer;
 }
 
 /* --- ABOUT ME --- */
 
-.about-me{
+.about-me {
   margin-bottom: 70px;
 }
-.about-me img{
+
+.about-me img {
   max-height: 175px;
 }
 
-.about-me p{
+.about-me p {
   line-height: 3rem;
 }
 
 /* --- SKILLS --- */
 
-.skills .progress{
+.skills .progress {
   height: 40px;
   margin-bottom: 30px;
 }
 
-.skills p{
+.skills p {
   text-align: right;
   font-size: 18px;
   font-weight: 600;
   color: #02B3E4;
 }
 
-.skills .progress-bar{
+.skills .progress-bar {
   background-color: #02B3E4;
   font-size: 18px;
 }
 
-.skills{
+.skills {
   margin-bottom: 100px;
 }
 
 /* --- CONTACT FORM --- */
-form textarea{
+
+form textarea {
   height: 150px;
   min-height: 150px;
   max-height: 250px;
   margin-bottom: 30px;
 }
 
-.contact-form{
+.contact-form {
   margin-bottom: 50px;
 }
 
-.contact-form .submit-btn{
+.contact-form .submit-btn {
   padding-left: 20px;
   padding-right: 20px;
   background-color: #02B3E4;
@@ -112,12 +114,12 @@ form textarea{
   font-size: 20px;
 }
 
-.contact-form .submit-btn:hover{
+.contact-form .submit-btn:hover {
   background-color: #0597bf;
   cursor: pointer;
 }
 
-p.contact-header{
+p.contact-header {
   margin-top: 40px;
   margin-bottom: 60px;
   font-size: 22px;
@@ -125,7 +127,7 @@ p.contact-header{
 
 /* --- FOOTER --- */
 
-footer .jumbotron{
+footer .jumbotron {
   margin: 0;
   padding: 20px;
   background-color: #02B3E4;
@@ -133,6 +135,26 @@ footer .jumbotron{
   border-radius: 0;
 }
 
-footer .jumbotron p{
+footer .jumbotron p {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .submit-btn {
+    width: 100%;
+    display:block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header .logo,
+  .avatar {
+    margin-left: auto;
+	  margin-right: auto;
+	  display: block;
+  }
+
+  .skills p {
+    text-align: left;
+  }
 }
