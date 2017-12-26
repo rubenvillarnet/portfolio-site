@@ -1,7 +1,3 @@
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip();
-})
-
 $(function(){
   $('.featured .image-container').on('click', function(){
     $('#modal').modal;
@@ -12,4 +8,8 @@ $(function(){
   $('#modal').on('click', function(){
     $('modal').modal('hide');
   })
+})
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
 })
