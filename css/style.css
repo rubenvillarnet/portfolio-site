@@ -39,6 +39,20 @@ header h4{
   margin-bottom: 100px;
 }
 
+.modal .modal-dialog{
+  width: 90%;
+}
+
+.modal-dialog {
+  width: 50%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.modal-content img{
+  max-width: 100%;
+}
+
 .featured a {
   font-weight: 300;
   color: #02B3E4;
@@ -138,6 +152,12 @@ footer .jumbotron {
 footer .jumbotron p {
   margin-bottom: 0;
 }
+
+footer .jumbotron a{
+  color: #fff;
+}
+
+/* --- MEDIA QUERIES --- */
 
 @media screen and (max-width: 768px) {
   .submit-btn {
