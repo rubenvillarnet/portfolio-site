@@ -4,7 +4,7 @@ body {
 
 /* --- HEADER ---*/
 
-img.logo {
+.logo {
   height: 92px;
   width: auto;
 }
@@ -12,7 +12,7 @@ img.logo {
 header .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #fff;
+  background: #fff;
   box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);
   margin-bottom: 60px;
   border-radius: 0;
@@ -21,7 +21,7 @@ header .jumbotron {
 header h1,
 header h4{
   font-weight: 300;
-  color: #02B3E4;
+  color: #02b3e4;
 }
 
 /* --- HERO IMAGE ---*/
@@ -55,12 +55,12 @@ header h4{
 
 .featured a {
   font-weight: 300;
-  color: #02B3E4;
+  color: #02b3e4;
 }
 
 .featured .button {
   padding: 20px 0;
-  background-color: #02B3E4;
+  background-color: #02b3e4;
   border: none;
   font-size: 20px;
 }
@@ -95,16 +95,28 @@ header h4{
   text-align: right;
   font-size: 18px;
   font-weight: 600;
-  color: #02B3E4;
+  color: #02b3e4;
 }
 
 .skills .progress-bar {
-  background-color: #02B3E4;
+  background-color: #02b3e4;
   font-size: 18px;
 }
 
 .skills {
   margin-bottom: 100px;
+}
+
+.html-bar{
+  width: 85%;
+}
+
+.css-bar{
+  width: 90%;
+}
+
+.js-bar{
+  width: 75%;
 }
 
 /* --- CONTACT FORM --- */
@@ -123,7 +135,7 @@ form textarea {
 .contact-form .submit-btn {
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #02B3E4;
+  background-color: #02b3e4;
   border: none;
   font-size: 20px;
 }
@@ -144,7 +156,7 @@ p.contact-header {
 footer .jumbotron {
   margin: 0;
   padding: 20px;
-  background-color: #02B3E4;
+  background-color: #02b3e4;
   color: #fff;
   border-radius: 0;
 }
@@ -162,7 +174,7 @@ footer .jumbotron a{
 @media screen and (max-width: 768px) {
   .submit-btn {
     width: 100%;
-    display:block;
+    display: block;
   }
 }
 
